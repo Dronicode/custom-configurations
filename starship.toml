@@ -3,7 +3,7 @@ add_newline = true
 format = '''
 [┌───────────────────┤](bold purple)$cmd_duration$status$memory_usage$jobs$battery
 [│](bold purple)$username$hostname$directory$docker_context$git_branch$git_commit$dotnet$java$nodejs$python$package
-[└──┤](bold purple)$sudo$shell[├ ](bold purple)'''
+[└──┤](bold purple)[├ ](bold purple)$sudo$shell '''
 
 [cmd_duration]
 format = '[$duration]($style)[│](bold purple)'
